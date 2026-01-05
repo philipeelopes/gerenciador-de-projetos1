@@ -1,0 +1,80 @@
+{
+  "projects": [
+    {
+      "id": "0cc8",
+      "name": "ford focus",
+      "budget": "50000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 48340,
+      "services": [
+        {
+          "name": "lopes da silva scherer",
+          "cost": "1445",
+          "description": "23wqs",
+          "id": "976579e5-a264-48e8-b81c-2fa0f45e91ab"
+        }
+      ]
+    },
+    {
+      "id": "7aae",
+      "name": "arrz",
+      "budget": "124",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 123,
+      "services": [
+        {
+          "name": "philipe",
+          "cost": "123",
+          "description": "34243",
+          "id": "9e149b55-713e-4e9b-948b-de9a8b21d577"
+        }
+      ]
+    },
+    {
+      "id": "d364",
+      "name": "fazer 205",
+      "budget": "250000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "f479",
+      "name": "ph",
+      "budget": "1233",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}

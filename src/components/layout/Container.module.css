@@ -1,0 +1,34 @@
+.container{
+    width:90%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.min-height{
+    min-height: 75vh;
+}
+
+.start {
+  display: flex;
+  flex-wrap: wrap; /* permite quebrar linha se faltar espaço */
+  justify-content: flex-start;
+  gap: 10px; /* espaço entre as caixas */
+}
+
+
+.column{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fullWidth {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  justify-content: unset;
+  align-items: unset;
+}
+
