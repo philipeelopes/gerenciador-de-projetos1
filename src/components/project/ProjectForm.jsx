@@ -15,7 +15,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
     useEffect(() => {
 
 
-        fetch("http://localhost:5000/categories", {
+        fetch("https://gerenciador-backend-u7qe.onrender.com/categories", {
             method: "GET",
             headers: {
                 'content-type': 'application/json',

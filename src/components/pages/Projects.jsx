@@ -27,7 +27,7 @@ function Projects(){
     useEffect(() => {
 
        setTimeout(() => {
-         fetch('http://localhost:5000/projects',{
+         fetch("https://gerenciador-backend-u7qe.onrender.com/projects", {
 
            method: 'GET',
            headers: {
@@ -46,7 +46,7 @@ function Projects(){
 
 
     function removeProject(id){
-        fetch(`http://localhost:5000/projects/${id}`,{
+       fetch(`https://gerenciador-backend-u7qe.onrender.com/projects/${id}`, {
             method: 'DELETE',
             headers:{
                 'Content-Type': 'appli´cation/json'

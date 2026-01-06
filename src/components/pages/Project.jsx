@@ -25,7 +25,7 @@ function Project() {
 
     useEffect(() => {
         setTimeout(() => {
-            fetch(`http://localhost:5000/projects/${id.trim()}`, {
+            fetch(`https://gerenciador-backend-u7qe.onrender.com/projects/${id}`, {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json',
@@ -54,7 +54,7 @@ function Project() {
             return false
 
         }
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://gerenciador-backend-u7qe.onrender.com/projects/${project.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
@@ -108,7 +108,7 @@ function Project() {
         //add service cost to project total cost
         project.cost = newCost
         //update project
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://gerenciador-backend-u7qe.onrender.com/projects/${project.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
@@ -138,7 +138,7 @@ function Project() {
         projectUpdate.services = serviceUpdate
         projectUpdate.cost = parseFloat(projectUpdate.cost) - parseFloat(cost)
 
-        fetch(`http://localhost:5000/projects/${projectUpdate.id}`, {
+        fetch(`https://gerenciador-backend-u7qe.onrender.com/projects/${projectUpdate.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',

@@ -13,7 +13,7 @@ function NewProject(){
         project.cost = 0;
         project.services = [];
 
-        fetch("http://localhost:5000/projects",{
+         fetch("https://gerenciador-backend-u7qe.onrender.com/projects", {
             method: "POST",
             headers: {
                 'content-type': 'application/json',
